@@ -59,7 +59,7 @@ function play() {
   var turn = false;
 white_piece.style.top = white_pos[1] * 16 + "px"; 
 white_piece.style.left = white_pos[0] * 16 + "px"; 
-black_piece.style.top = black_pos[1] * 16 + "px"; 
+black_piece.style.top = -16 + black_pos[1] * 16 + "px"; 
 black_piece.style.left = black_pos[0] * 16 + "px"; 
   
   var id = setInterval(frame, speed);
@@ -144,7 +144,7 @@ black_piece.style.left = black_pos[0] * 16 + "px";
     }
     white_piece.style.top = white_pos[1] * 16 + "px"; 
     white_piece.style.left = white_pos[0] * 16 + "px"; 
-    black_piece.style.top = black_pos[1] * 16 + "px"; 
+    black_piece.style.top = -16 + black_pos[1] * 16 + "px"; 
     black_piece.style.left = black_pos[0] * 16 + "px"; 
   }
 }
