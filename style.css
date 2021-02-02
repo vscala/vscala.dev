@@ -104,11 +104,14 @@ a{
 }
 
 #board {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 128px;
   height: 128px;
   background-size: contain;
   background-repeat:no-repeat;
-  position: relative;
+  position: center;
   background: black;
   background-image: url("chess_board_128.png");
   border: 1px solid black;
@@ -116,14 +119,14 @@ a{
 #black {
   width: 16px;
   height: 16px;
-  position: absolute;
+  position: relative;
   background-image: url("black_16.png");
 
 }
 #white {
   width: 16px;
   height: 16px;
-  position: absolute;
+  position: relative;
   background-image: url("white_16.png");
 
 }
