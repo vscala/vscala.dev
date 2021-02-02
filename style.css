@@ -104,6 +104,8 @@ a{
 }
 
 #board {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
 
   width: 128px;
   height: 128px;
@@ -115,6 +117,8 @@ a{
   border: 1px solid black;
 }
 #black {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
   width: 16px;
   height: 16px;
   position: absolute;
@@ -122,6 +126,8 @@ a{
 
 }
 #white {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
   width: 16px;
   height: 16px;
   position: absolute;
