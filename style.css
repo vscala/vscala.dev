@@ -102,3 +102,29 @@ a{
         padding-top: 2rem;
     }
 }
+
+#board {
+
+  width: 128px;
+  height: 128px;
+  background-size: contain;
+  background-repeat:no-repeat;
+  position: relative;
+  background: black;
+  background-image: url("chess_board_128.png");
+  border: 1px solid black;
+}
+#black {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  background-image: url("black_16.png");
+
+}
+#white {
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  background-image: url("white_16.png");
+
+}
